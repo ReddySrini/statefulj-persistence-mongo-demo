@@ -5,7 +5,7 @@
 
 	<groupId>org.statefulj.persistence</groupId>
 	<artifactId>statefulj-persistence-mongo-demo</artifactId>
-	<version>0.9</version>
+	<version>1.0.5</version>
 	<packaging>jar</packaging>
 
 	<name>statefulj-persistence-mongo-demo</name>
@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>org.statefulj.persistence.mongo.demo.DemoBootStrap</start-class>
 		<java.version>1.7</java.version>
-		<statefulj.version>0.9-SNAPSHOT</statefulj.version>
+		<statefulj.version>${project.version}</statefulj.version>
 	</properties>
 
 	<dependencies>
